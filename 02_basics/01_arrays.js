@@ -60,7 +60,3 @@ console.log(myn2);
 
 
 
-console.log("hello");
-
-
-
