@@ -56,14 +56,54 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-
-
-console.log(tinderUser.hasOwnProperty('isLoggedI'));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 
+// console.log(tinderUser.hasOwnProperty('isLoggedI'));
 
+//--------------------DE-STRUCTURING-----------------------------//
+//object
+const course = {
+    coursename: "js in hind",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+//course.courseInstructor
+//course.coursename;
+//course.price;
+
+const {courseInstructor: instructor} = course;
+console.log(instructor);
+
+/*
+for undestanding purpose
+const navbar = ({company}) => {
+
+}
+navbar(company = "Hitesh")
+
+*/
+
+
+
+//--------------APIs------------------------//
+/*
+//json(for understanding)    same  like object(API in object format)
+{
+    "name": "Sagar",
+    "coursename:"js in hindi",
+    "price": "free"
+}
+*/
+
+//API in array format
+[
+    {},
+    {},
+    {},
+]
