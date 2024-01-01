@@ -25,7 +25,6 @@ let isLoggedIn = false //boolean
 //LEarn documentationecma script
 //Learn MDN documentation for more understanding
 
-//
 //----------OBJECT----------------------//
 
 console.log(typeof "Hitesh"); // sting 
