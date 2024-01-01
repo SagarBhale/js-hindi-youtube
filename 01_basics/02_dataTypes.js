@@ -20,9 +20,11 @@ let isLoggedIn = false //boolean
 // boolean => true/false
 // null   ==> standalone value(null is representaion of emplty type) It is an object
 // undefined ==> value not defined
-// symbol ==> unique
+// symbol ==> uniqueness
 
-
+//LEarn documentationecma script
+//Learn MDN documentation for more understanding
+//
 //----------OBJECT----------------------//
 
 console.log(typeof "Hitesh"); // sting 
